@@ -2,7 +2,7 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 const fs = require("fs");
 const path = require("path");
 
-const genAI = new GoogleGenerativeAI("AIzaSyC_gDH9W7HXADswtoJUWhWjrwvZdDNQfDA");
+const genAI = new GoogleGenerativeAI("YOUR_KEY");
 
 async function main() {
   try {
